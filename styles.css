@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative; 
+    height: 100vh; 
+}
+
+.background {
+    position: absolute; 
+    top: 0;
+    bottom: 0;
+    width: 50%; 
+}
+span{
+    color: #e3d9c9;
+}
+.left-bg {
+    background-color: #a48c78; 
+    left: 0;
+}
+
+.right-bg {
+    background-color: #edecea; 
+    right: 0;
+}
+
+.centered-box {
+    position: absolute; 
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 1500px; 
+    height: 800px; 
+    padding-bottom: 40px;
+}
+
+.split-box {
+    width: 100%; 
+    height: 100%;
+    display: flex; 
+}
+
+.left-half {
+    flex: 1; 
+    background-color: #bea28b;
+    
+}
+h1{
+    color: #5a2d08;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 30%;
+}
+h3{
+    color: #5a2d08;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.right-half {
+    flex: 1; 
+    background-color: #fdfbf7; 
+    
+}
+nav{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e3d9c9;
+
+}
+nav ul {
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #a9540e;
+    font-weight: 400;
+}
+.contact{
+    padding: 10px 10px;
+    background-color: #bea28b;
+    color: #fdfbf7;
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+.mainp{
+    margin: 5px 25px;
+    color: #a9540e;
+}
+.butn{
+    padding: 10px 20px;
+    background-color: #e3d9c9;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    margin-left: 300px;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: #5a2d08;
+}
+.img-box img{
+    border-radius: 50%;
+    width: 450px;
+    margin-left: 130px;
+    margin-top: 40px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 900px; 
+    margin-left: 0px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .img-box2 img{
+    width: 450px;
+    margin-left: 300px;
+    margin-top: 170px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px; 
+}
+
+.column {
+    background-color: #fdfbf7;
+    height: 900px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: justify;
+}
+
+.column h3 {
+    color: #5a2d08; 
+    text-align: justify;
+    font-size: 40px;
+}
+
+.column p {
+    color: #5a2d08; 
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.butn2 {
+    padding: 10px 20px;
+    background-color: #e3d9c9; 
+    color: #5a2d08; 
+    text-decoration: none;
+    border-radius: 5px;
+}
+.contact-form{
+    background-color: #bea28b;
+    height: 900px;
+}
+.contact-form h2{
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 36px;
+    width: 100%;
+    padding-top: 50px;
+}
+.contact-form form{
+    max-width: 50em;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3em;
+}
+.contact-form form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact-form form .input-box input,
+.contact-form form textarea{
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    color: #5a2d08;
+    background-color: #fdfbf7;
+    border-radius: 8px;
+    margin: 1rem 0;
+    resize: none;
+}
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: #67330b;
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #edecea;
+}
+.footer .social a{
+    font-size: 24px;
+    color: #edecea;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li a{
+    color: #edecea;
+    border-bottom: 3px solid transparent;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: #edecea;
+}
